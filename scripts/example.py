@@ -9,7 +9,7 @@ projector = Projector()
 light = Light3D()
 converter = Model_Converter()
 
-mesh = converter.convert_obj_file("files/Models/cube.obj")
+mesh = converter.convert_obj_file("files/example_models/cube.obj")
 
 mesh.calculate_center()
 
